@@ -1,0 +1,2 @@
+# NYPD_Arrest_Dataset_Integration_and_Dimensional_Modeling
+Demonstrated a dimensional model for NYPD Arrest Dataset after converting data model into 3rd Normal Form. Analyzed the data using Alteryx &amp; Implemented Data integration using Talend for loading the data into tables. Executed SQL scripts to deliver required insights from the NYPD dataset to complete case study. Generated reports in Tableau &amp; PowerBI &amp; developed KPI to identify trends &amp; patterns
