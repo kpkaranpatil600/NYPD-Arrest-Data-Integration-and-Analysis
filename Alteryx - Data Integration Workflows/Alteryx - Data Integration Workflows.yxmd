@@ -1,0 +1,1778 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4D0F0EF8A557D792125166EEE7848D33ADCEBE452</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,
+	stg_nyc_arrests.ARREST_DATE,
+	stg_nyc_arrests.PD_CD,
+	stg_nyc_arrests.PD_DESC,
+	stg_nyc_arrests.KY_CD,
+	stg_nyc_arrests.OFNS_DESC,
+	stg_nyc_arrests.LAW_CODE,
+	stg_nyc_arrests.LAW_CAT_CD,
+	stg_nyc_arrests.ARREST_BORO,
+	stg_nyc_arrests.ARREST_PRECINCT,
+	stg_nyc_arrests.JURISDICTION_CODE,
+	stg_nyc_arrests.AGE_GROUP,
+	stg_nyc_arrests.PERP_SEX,
+	stg_nyc_arrests.PERP_RACE,
+	stg_nyc_arrests.X_COORD_CD,
+	stg_nyc_arrests.Y_COORD_CD,
+	stg_nyc_arrests.Latitude,
+	stg_nyc_arrests.Longitude 
+from stg_nyc_arrests</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC_Arrests
+Query=select stg_nyc_arrests.ARRES...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ARREST_KEY" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Int32" />
+            <Field name="ARREST_DATE" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="PD_CD" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="PD_DESC" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="KY_CD" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="OFNS_DESC" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="LAW_CODE" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="LAW_CAT_CD" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="ARREST_BORO" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="ARREST_PRECINCT" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Int32" />
+            <Field name="JURISDICTION_CODE" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Int32" />
+            <Field name="AGE_GROUP" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="PERP_SEX" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="PERP_RACE" size="500" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="X_COORD_CD" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Int32" />
+            <Field name="Y_COORD_CD" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Int32" />
+            <Field name="Latitude" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Double" />
+            <Field name="Longitude" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="726" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PD_id" selected="True" />
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="PD_CD" selected="True" />
+            <SelectField field="PD_DESC" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="834" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="PD_CD" selected="True" />
+            <Field field="PD_DESC" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PD_id" source="RecordID: Starting Value=4" type="Int32" />
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="PD_CD" size="3" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="PD_DESC" size="54" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+            <Field name="DI_CreateDate" size="1073741823" source="Formula: DateTimeNow()" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="954" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||dim_PD_CD</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=dim_PD_CD</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PD_CD" selected="True" />
+            <SelectField field="PD_DESC" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="PD_CD" />
+            <Field field="PD_DESC" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="510" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>PD_id</FieldName>
+          <StartValue>4</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="AGE_GROUP" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="AGE_GROUP" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="402" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="402" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="510" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Age_id</FieldName>
+          <StartValue>2</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="726" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Age_id" selected="True" />
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="AGE_GROUP" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="834" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="AGE_GROUP" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Age_id" source="RecordID: Starting Value=2" type="Int32" />
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="AGE_GROUP" size="7" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="954" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||Dim_AGE_GROUP</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=Dim_AGE_GROUP</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="X_COORD_CD" selected="True" />
+            <SelectField field="Y_COORD_CD" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="270" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="X_COORD_CD" />
+            <Field field="Y_COORD_CD" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="390" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="498" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Geo_id</FieldName>
+          <StartValue>6</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="726" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Geo_id" selected="True" />
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="X_COORD_CD" selected="True" />
+            <SelectField field="Y_COORD_CD" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="858" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||Dim_Geo</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=Dim_Geo</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ARREST_DATE" selected="True" />
+            <SelectField field="ARREST_BORO" selected="True" />
+            <SelectField field="ARREST_PRECINCT" selected="True" />
+            <SelectField field="JURISDICTION_CODE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ARREST_DATE" />
+            <Field field="ARREST_BORO" />
+            <Field field="ARREST_PRECINCT" />
+            <Field field="JURISDICTION_CODE" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="390" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="498" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InfoArrest_id</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="InfoArrest_id" selected="True" />
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="ARREST_DATE" selected="True" />
+            <SelectField field="ARREST_BORO" selected="True" />
+            <SelectField field="ARREST_PRECINCT" selected="True" />
+            <SelectField field="JURISDICTION_CODE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="810" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ARREST_DATE" selected="True" />
+            <Field field="ARREST_BORO" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InfoArrest_id" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="ARREST_DATE" size="10" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="ARREST_BORO" size="1" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="ARREST_PRECINCT" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Int32" />
+            <Field name="JURISDICTION_CODE" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||Dim_InfoArrest</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=Dim_InfoArrest</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="KY_CD" selected="True" />
+            <SelectField field="OFNS_DESC" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="KY_CD" />
+            <Field field="OFNS_DESC" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="402" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="510" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>KY_id</FieldName>
+          <StartValue>3</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="KY_id" selected="True" />
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="KY_CD" selected="True" />
+            <SelectField field="OFNS_DESC" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="810" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="KY_CD" selected="True" />
+            <Field field="OFNS_DESC" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="KY_id" source="RecordID: Starting Value=3" type="Int32" />
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="KY_CD" size="3" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="OFNS_DESC" size="43" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||Dim_KY_CD</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=Dim_KY_CD</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LAW_CODE" selected="True" />
+            <SelectField field="LAW_CAT_CD" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="LAW_CODE" />
+            <Field field="LAW_CAT_CD" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="402" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="510" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Law_id</FieldName>
+          <StartValue>4</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Law_id" selected="True" />
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="LAW_CODE" selected="True" />
+            <SelectField field="LAW_CAT_CD" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="810" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="LAW_CODE" selected="True" />
+            <Field field="LAW_CAT_CD" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Law_id" source="RecordID: Starting Value=4" type="Int32" />
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="LAW_CODE" size="10" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="LAW_CAT_CD" size="1" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||Dim_Law</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=Dim_Law</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PERP_SEX" selected="True" />
+            <SelectField field="PERP_RACE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="PERP_SEX" />
+            <Field field="PERP_RACE" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="402" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>sor_key</FieldName>
+          <StartValue>15</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="510" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Perpetrator_id</FieldName>
+          <StartValue>5</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Perpetrator_id" selected="True" />
+            <SelectField field="sor_key" selected="True" />
+            <SelectField field="PERP_SEX" selected="True" />
+            <SelectField field="PERP_RACE" selected="True" />
+            <SelectField field="LAW_CAT_CD" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="810" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="PERP_SEX" selected="True" />
+            <Field field="PERP_RACE" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Perpetrator_id" source="RecordID: Starting Value=5" type="Int32" />
+            <Field name="sor_key" source="RecordID: Starting Value=15" type="Int32" />
+            <Field name="PERP_SEX" size="1" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="String" />
+            <Field name="PERP_RACE" size="30" source="File: odbc:DSN=NYC_Arrests;UID=damg7370;PWD=__EncPwd1__|||select stg_nyc_arrests.ARREST_KEY,&#xA;	stg_nyc_arrests.ARREST_DATE,&#xA;	stg_nyc_arrests.PD_CD,&#xA;	stg_nyc_arrests.PD_DESC,&#xA;	stg_nyc_arrests.KY_CD,&#xA;	stg_nyc_arrests.OFNS_DESC,&#xA;	stg_nyc_arrests.LAW_CODE,&#xA;	stg_nyc_arrests.LAW_CAT_CD,&#xA;	stg_nyc_arrests.ARREST_BORO,&#xA;	stg_nyc_arrests.ARREST_PRECINCT,&#xA;	stg_nyc_arrests.JURISDICTION_CODE,&#xA;	stg_nyc_arrests.AGE_GROUP,&#xA;	stg_nyc_arrests.PERP_SEX,&#xA;	stg_nyc_arrests.PERP_RACE,&#xA;	stg_nyc_arrests.X_COORD_CD,&#xA;	stg_nyc_arrests.Y_COORD_CD,&#xA;	stg_nyc_arrests.Latitude,&#xA;	stg_nyc_arrests.Longitude &#xA;from stg_nyc_arrests" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||Dim_Perpetrator</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=Dim_Perpetrator</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1014" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Arrest_id</FieldName>
+          <StartValue>10</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1158" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Arrest_id" selected="True" />
+            <SelectField field="ARREST_KEY" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="1074" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_Arrest_id" selected="True" />
+                <SelectField field="Input_#1_ARREST_KEY" selected="True" />
+                <SelectField field="Input_#2_PD_id" selected="True" />
+                <SelectField field="Input_#3_Age_id" selected="True" />
+                <SelectField field="Input_#3_sor_key" selected="False" rename="Input_#3_sor_key" />
+                <SelectField field="Input_#4_Geo_id" selected="True" />
+                <SelectField field="Input_#4_sor_key" selected="False" rename="Input_#4_sor_key" />
+                <SelectField field="Input_#5_InfoArrest_id" selected="True" />
+                <SelectField field="Input_#5_sor_key" selected="False" rename="Input_#5_sor_key" />
+                <SelectField field="Input_#6_KY_id" selected="True" />
+                <SelectField field="Input_#6_sor_key" selected="False" rename="Input_#6_sor_key" />
+                <SelectField field="Input_#7_Law_id" selected="True" />
+                <SelectField field="Input_#7_sor_key" selected="False" rename="Input_#7_sor_key" />
+                <SelectField field="Input_#8_Perpetrator_id" selected="True" />
+                <SelectField field="Input_#8_sor_key" selected="False" rename="Input_#8_sor_key" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1182" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PD_id" selected="True" />
+            <SelectField field="Age_id" selected="True" />
+            <SelectField field="Geo_id" selected="True" />
+            <SelectField field="InfoArrest_id" selected="True" />
+            <SelectField field="KY_id" selected="True" />
+            <SelectField field="Law_id" selected="True" />
+            <SelectField field="Perpetrator_id" selected="True" />
+            <SelectField field="Arrest_id" selected="True" />
+            <SelectField field="ARREST_KEY" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1278" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=NYC;UID=root;PWD=__EncPwd1__|||Fact_Arrest</File>
+          <Passwords>4DB29EDF18D7927C9357EE3D30B54B2E26C58B033D57D6C9E8C7AA11E9A1C9A39AFBC</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=NYC
+Query=Fact_Arrest</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="618" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="618" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Unique" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Unique" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Unique" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Unique" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Unique" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Unique" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Unique" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_Arrests</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="eccbf99e-dd63-4fbe-b895-168a896b7e18" />
+      <Telemetry>
+        <PreviousWorkflowId value="394c3fa0-588c-4687-bae2-ca2885fc7b78" />
+        <OriginWorkflowId value="33d3a92e-a4cb-4d9e-bbfc-912253049708" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
